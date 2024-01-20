@@ -1,9 +1,10 @@
 .header {
   padding: 92px 52px 96px 50.52px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1.4fr 1.5fr;
   align-items: center;
   gap: 36px;
+  justify-content: space-between;
 }
 
 .header-logo-image {
@@ -16,7 +17,7 @@
   list-style: circle;
   gap: 31.7px;
   letter-spacing: 0.18px;
-  white-space: nowrap;
+  position: absolute;
 }
 
 .header-links-list-active {
@@ -30,6 +31,10 @@
   align-items: start;
   padding-left: 30px;
   line-height: 24.3px;
+}
+
+.header-menu{
+  display: flex;
 }
 
 .contact-link {
@@ -48,7 +53,6 @@
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
-  background-size: cover;
   inset: 0;
   position: absolute;
   z-index: 1;
@@ -94,12 +98,13 @@
   font-weight: 500;
   text-transform: uppercase;
   width: 256px;
-  height: 51px;
+  min-height: 51px;
   border: 1px solid white;
   padding: 12px 32px 11px 31px;
-  position: absolute;
   white-space: nowrap;
   left: 742px;
+  font-family: Raleway, sans-serif;
+  margin-left: auto;
 }
 
 .aligned-text :first-child {
@@ -149,7 +154,7 @@
   position: relative;
   z-index: 1;
   list-style: none;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -160,7 +165,7 @@
   font-size: 22px;
   line-height: 26.4px;
   width: 334px;
-  height: 563px;
+  min-height: 100%;
   position: relative;
   background-position: center;
   background-size: cover;
@@ -265,8 +270,9 @@
 
 .logo-menu {
   display: flex;
-  padding-left: 144px;
   align-items: center;
+  margin-right: 0;
+  gap: 48px;
 }
 
 .img-logo {
@@ -277,15 +283,15 @@
   list-style: none;
   display: flex;
   align-self: start;
-  padding-left: 48px;
+  padding-left: 0;
 }
 
 .footer-address {
   text-align: left;
-  white-space: nowrap;
+  margin-right: auto;
 }
 
 .footer-menu {
-  padding-left: 208px;
-  white-space: nowrap;
+display: flex;
+margin-right: auto;
 }
