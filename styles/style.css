@@ -19,7 +19,7 @@
   white-space: nowrap;
 }
 
-.header-links-list-active{
+.header-links-list-active {
   list-style: none;
   text-decoration: none;
 }
@@ -32,7 +32,7 @@
   line-height: 24.3px;
 }
 
-.contact-link{
+.contact-link {
   letter-spacing: 0.18px;
 }
 
@@ -80,7 +80,6 @@
 
 .text-description {
   color: white;
-
   font-size: 22px;
   text-transform: uppercase;
   line-height: 28px;
@@ -88,25 +87,25 @@
   padding-left: 30px;
 }
 
-.button{
-    color: white;
-    background-color: transparent;
-    font-size: 22px;
-    font-weight: 500;
-    text-transform: uppercase;
-    width: 256px;
-    height: 51px;
-    border: 1px solid white; 
-    padding: 12px 32px 11px 31px;
-    position: absolute; 
-    white-space: nowrap;
-    left: 742px;
-  } 
+.button {
+  color: white;
+  background-color: transparent;
+  font-size: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 256px;
+  height: 51px;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+  position: absolute;
+  white-space: nowrap;
+  left: 742px;
+}
 
-  .aligned-text :first-child {
-    line-height: 115px;
-  }
-  
+.aligned-text :first-child {
+  line-height: 115px;
+}
+
 .aligned-text {
   display: flex;
   justify-content: start;
@@ -133,7 +132,7 @@
   letter-spacing: 0;
 }
 
-  .lots{
+.lots {
   margin: 0 24px;
 }
 
@@ -153,7 +152,6 @@
   list-style: none;
   flex-wrap: nowrap;
   border: 2px solid black;
-  
 }
 
 .card {
@@ -216,16 +214,16 @@
   font-size: 20px;
 }
 
-.about{
+.about {
   padding: 35px 24px 157px 71px;
 }
 
-.about-column{
+.about-column {
   display: flex;
   justify-content: start;
 }
 
-.about-logo{
+.about-logo {
   width: 240px;
   border-radius: 50%;
   display: flex;
@@ -233,13 +231,13 @@
   background-color: black;
 }
 
-.about-logo-image{
+.about-logo-image {
   margin: 63px 48px;
   width: 148px;
   height: 114px;
 }
 
-.about-title{
+.about-title {
   padding: 101px 0 100px 72px;
   display: flex;
   justify-content: start;
@@ -249,7 +247,7 @@
   font-weight: 700;
 }
 
-.about-text{
+.about-text {
   padding: 0 0 24px 72px;
   display: flex;
   font-size: 20px;
@@ -258,41 +256,40 @@
   letter-spacing: 0.2px;
 }
 
-.footer{
+.footer {
   display: flex;
   text-align: center;
   padding: 0 50px 0 51px;
-  line-height: 24.3px;;
+  line-height: 24.3px;
 }
 
-.footer-link-item{
+.footer-link-item {
   list-style: none;
 }
 
-.logo-menu{
+.logo-menu {
   display: flex;
   padding-left: 144px;
   align-items: center;
 }
 
-.img-logo{
-    width: 48px;
+.img-logo {
+  width: 48px;
 }
 
-.logo-link-item{
+.logo-link-item {
   list-style: none;
   display: flex;
   align-self: start;
   padding-left: 48px;
 }
 
-.footer-address{
+.footer-address {
   text-align: left;
   white-space: nowrap;
 }
 
-  .footer-menu{
-    padding-left: 208px;
-    white-space: nowrap;
-  }
-
+.footer-menu {
+  padding-left: 208px;
+  white-space: nowrap;
+}
