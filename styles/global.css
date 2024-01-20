@@ -1,19 +1,19 @@
 *,
 *::before,
-*::after { 
-    box-sizing: border-box;
-} 
+*::after {
+  box-sizing: border-box;
+}
 
 body {
-    width: 1100px;
-    height: 3028px;
-    margin: 0 auto;
-    font-family: Raleway, sans-serif;
-    color: black;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  width: 1100px;
+  height: 3028px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 h1,
@@ -27,14 +27,14 @@ ul,
 ol,
 li,
 blockquote {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
