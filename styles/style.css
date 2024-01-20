@@ -141,7 +141,6 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  border: 1px solid yellow;
 }
 
 .list-lots {
@@ -151,11 +150,10 @@
   z-index: 1;
   list-style: none;
   flex-wrap: nowrap;
-  border: 2px solid black;
 }
 
 .card {
-  border: 2px solid pink;
+  border: 2px solid white;
   display: flex;
   flex-direction: column;
   color: white;
@@ -173,7 +171,6 @@
 }
 
 .card-title {
-  border: 1px solid red;
   text-align: left;
   font-size: 22px;
   text-decoration-line: underline;
@@ -186,7 +183,6 @@
 }
 
 .card-text {
-  border: 1px solid green;
   display: flex;
   position: relative;
   text-decoration: none;
