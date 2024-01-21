@@ -197,7 +197,9 @@ a {
   line-height: 26.4px;
   display: flex;
   flex-wrap: no-wrap;
-  margin-top: 51px;
+  padding-top: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .card-text {
