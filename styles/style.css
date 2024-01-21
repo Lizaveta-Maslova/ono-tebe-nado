@@ -169,7 +169,6 @@ a {
 }
 
 .card {
-  border: 2px solid white;
   display: flex;
   flex-direction: column;
   color: white;
@@ -262,7 +261,6 @@ a {
 }
 
 .about-text {
-  border: 1px solid black;
   padding: 0 17px 24px 74px;
   display: flex;
   font-size: 20px;
