@@ -3,6 +3,12 @@
   display: grid;
   grid-template-columns: 390px 300px 474px;
   gap: 36px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+  margin: 0;
+  font-family: Raleway, sans-serif;
 }
 
 .header-logo-image {
@@ -280,6 +286,11 @@ p:last-child {
   display: flex;
   justify-content: space-between;
   align-items: start;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+  font-family: Raleway, sans-serif;
 }
 
 .footer-link-item {
@@ -287,16 +298,16 @@ p:last-child {
 }
 
 .footer-menu {
-display: flex;
-align-items: center;
-padding-left: 50px;
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
 }
 
 .footer-link {
   text-decoration: underline;
 }
 
-.footer-link-active { 
+.footer-link-active {
   text-decoration: none;
 }
 
@@ -320,6 +331,3 @@ padding-left: 50px;
   align-self: start;
   padding-left: 0;
 }
-
-
-
