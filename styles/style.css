@@ -1,14 +1,9 @@
 .header {
   padding: 92px 52px 92px 50.52px;
   display: grid;
-  grid-template-columns: 390px 300px 474px;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 36px;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px;
-  margin: 0;
-  font-family: Raleway, sans-serif;
+  white-space: nowrap;
 }
 
 .header-logo-image {
@@ -21,7 +16,6 @@
   list-style: circle;
   gap: 31.7px;
   letter-spacing: 0.18px;
-  position: absolute;
   text-decoration: underline;
 }
 
@@ -41,6 +35,7 @@
   line-height: 24.3px;
   text-align: left;
   font-style: normal;
+  padding-left: 28px;
 }
 
 .header-menu {
@@ -60,15 +55,16 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 757px;
+  min-height: 757px;
   width: auto;
+  z-index: -1;
 }
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
   inset: 0;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
 }
 
 .cover-title {
@@ -115,7 +111,6 @@
   border: 1px solid white;
   padding: 12px 32px 11px 31px;
   white-space: nowrap;
-  left: 742px;
   font-family: Raleway, sans-serif;
   margin-left: auto;
 }
@@ -189,6 +184,7 @@ a {
   padding: 0 40px 48px 40px;
   justify-content: space-between;
   height: 100%;
+  z-index: -1;
 }
 
 .card-title {
@@ -267,12 +263,11 @@ a {
 }
 
 .about-text {
-  padding: 0 17px 24px 74px;
+  padding: 0 0 24px 74px;
   display: flex;
   font-size: 20px;
   line-height: 24px;
   gap: 26px;
-  text-align: left;
 }
 
 p:last-child {
@@ -282,15 +277,11 @@ p:last-child {
 .footer {
   margin-top: 27px;
   text-align: center;
-  padding: 0 50px 0 51px;
+  padding-right: 50px;
   display: flex;
   justify-content: space-between;
   align-items: start;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24.3px;
-  font-family: Raleway, sans-serif;
+  border: 1px solid black;
 }
 
 .footer-link-item {
