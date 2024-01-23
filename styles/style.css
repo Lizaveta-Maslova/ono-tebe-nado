@@ -13,10 +13,9 @@
 .header-links-list {
   display: flex;
   list-style: circle;
-  gap: 31.7px;
+  gap: 30px;
   letter-spacing: 0.18px;
   text-decoration: underline;
-  position: absolute;
 }
 
 .header-links-list-active {
@@ -35,13 +34,11 @@
   line-height: 24.3px;
   text-align: left;
   font-style: normal;
-  position: relative;
-  right: 40px;
 }
 
 .header .address-contacts {
   justify-self: flex-end;
-  padding-left: 50px;
+  padding-right: 40px;
 }
 
 .header-menu {
@@ -184,7 +181,7 @@ a {
   width: 336px;
   position: relative;
   background-position: center;
-  background-size: cover;
+
   background-repeat: no-repeat;
   text-transform: uppercase;
   padding: 0 40px 48px 40px;
